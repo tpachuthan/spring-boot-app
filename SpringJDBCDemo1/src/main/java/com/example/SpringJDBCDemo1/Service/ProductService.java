@@ -18,7 +18,7 @@ public class ProductService {
 	{
 		Pageable pageable = (Pageable) PageRequest.of(page,size);
 		return productRepo.findAll(pageable);
-	}
+	}     
 	
 	
 	
