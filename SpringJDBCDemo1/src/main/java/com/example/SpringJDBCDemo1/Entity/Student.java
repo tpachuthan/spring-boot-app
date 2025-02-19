@@ -26,6 +26,8 @@ public class Student {
 	@Id
 	@GeneratedValue
 	private int id;
+	
+	private int sid;
 
 	private int mark;
 	private String name;
